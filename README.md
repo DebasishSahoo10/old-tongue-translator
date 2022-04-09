@@ -1,2 +1,2 @@
 # Wheel of Time Old Tongue translator 
- A JS app which translates normal English to Wheel of Time Old Tongue Text
+ A JS app which translates normal English to Wheel of Time Old Tongue Text. The Old Tongue is a now-dead language in the Wheel of Time universe (an Amazon special webseries), but now spoken only by scholars and certain nobles. Our Wheel of Time translator takes plain English and converts it to Wheel of time old tongue. (motivation : I am a big fan of the series and Rosamund Pike)
