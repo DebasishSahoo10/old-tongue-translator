@@ -2,7 +2,7 @@
 
 :root {
     --primary-color : #00b3a0;
-    --secondary-color : white;
+    --secondary-color : #f1f5f9;
 }
 
 body {
@@ -26,6 +26,7 @@ body {
     padding: 1rem;
     font-family: 'Cairo', sans-serif;
     font-size: larger;
+    background-color: var(--secondary-color);
 }
 
 #output-box {
@@ -56,7 +57,7 @@ body {
     background-color: var(--secondary-color);
     text-align: center;
     border-radius: 1rem 1rem;
-    padding: 2.5rem;
+    padding: 2rem;
     max-width: 85%;
     margin: auto;
     text-align: center;
