@@ -1,27 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
 
+:root {
+    --primary-color : #00b3a0;
+    --secondary-color : white;
+}
+
 body {
     font-family: 'Cairo', sans-serif;
     text-align: center;
     display: block;
+    background-image: url(/images/bg.svg);
+    background-attachment: fixed;
 }
 
 #input-box {
     display: block;
-    border: 5px #000000 dotted;
+    border: 5px var(--primary-color) solid;
+    border-collapse: separate;
+    border-spacing: 0.5rem 0.5rem;
     height: 20vh;
+    margin: 2rem auto;
     width: 80%;
     text-align: center;
     border-radius: 0.5rem 0.5rem;
     padding: 1rem;
-    margin: 2rem auto;
     font-family: 'Cairo', sans-serif;
     font-size: larger;
 }
 
 #output-box {
     font-family: 'Cairo', sans-serif;
-    border: 5px #000000 dotted;
+    border: 5px var(--primary-color) solid;
     height: 20vh;
     width: 80%;
     margin: auto;
@@ -31,13 +40,14 @@ body {
     margin: 2rem auto;
     overflow: auto;
     font-size: larger;
+    background-color: var(--secondary-color);
 }
 
 #translate-button {
     font-family: 'Cairo', sans-serif;
     padding: 0.5rem;
     border-radius: 0.5rem 0.5rem;
-    border: 2px #000000 solid;
+    border: 2px var(--primary-color) solid;
     font-size: larger;
     background-color: white;
 }
