@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+#input-box {
+    display: block;
+    border: 5px #000000 dotted;
+    height: 20vh;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.5rem 0.5rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    font-family: 'Cairo', sans-serif;
+    font-size: larger;
+}
+
+#output-box {
+    font-family: 'Cairo', sans-serif;
+    border: 5px #000000 dotted;
+    height: 20vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.5rem 0.5rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    overflow: auto;
+    font-size: larger;
+}
+
+#translate-button {
+    font-family: 'Cairo', sans-serif;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem;
+    border: 2px #000000 solid;
+    font-size: larger;
+    background-color: white;
+}
