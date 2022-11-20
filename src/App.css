@@ -87,3 +87,19 @@ button {
   background: #000000;
   border: 5px solid #D96E30;
 }
+
+p {
+  position: absolute;
+  width: 583px;
+  height: 302px;
+  left: 1294px;
+  top: 240px;
+  background-color: black;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: left;
+  color: #D96E30;
+}
