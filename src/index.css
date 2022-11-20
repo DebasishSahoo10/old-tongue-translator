@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+body {
+  text-align: center;
+  background-image: url(/src/assets/bg-pattern.svg);
+  background-color: black;
+  font-family: 'Syne', sans-serif;
+  overflow: hidden;
+}
