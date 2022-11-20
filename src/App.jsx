@@ -23,6 +23,7 @@ function App() {
       <button onClick={translate}>Translate</button>
       
       <p>The Old Tongue is a now-dead language in the Wheel of Time universe (an Amazon special webseries), but now spoken only by scholars and certain nobles. Our Wheel of Time translator takes plain English and converts it to Wheel of time old tongue.</p>
+      <img src="\public\emoji.svg" alt="" id='emoji'/>
     </div>
   )
 }
