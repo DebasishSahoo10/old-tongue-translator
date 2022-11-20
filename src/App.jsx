@@ -15,6 +15,7 @@ function App() {
 }
   return (
     <div className="App">
+      <img src="\public\main-box.svg" alt="" id='main-box'/>
       <textarea placeholder="your english input goes here" onChange={(e)=>{setInput(e.target.value)}}></textarea>
       <button onClick={translate}>Translate</button>
       <div>{output}</div>

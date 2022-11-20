@@ -1,0 +1,11 @@
+#main-box {
+  position: absolute;
+  /* width: 1122.13px;
+  height: 943px;
+  left: 124px;
+  top: 54px; */
+  height: 90vh;
+  max-width: 90%;
+  left: 5vw;
+  top: 5vh;
+}
