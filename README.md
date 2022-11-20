@@ -8,4 +8,4 @@
 -- [API Docs](https://funtranslations.com/api/wheel-of-time-old-tongue) : fetched data's conversion and format for POST call is documented here.
 
 -- [![Room
-Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](https://minionme.netlify.app/)
+Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](https://wheeloftime.vercel.app/)
